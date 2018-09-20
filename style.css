@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Century Gothic", CenturyGothic, Apple sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    background-color: #e6e6e6;
+}
+
+div.header {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+div.title {
+    padding: 20px 0 20px 0;
+    margin: 0px;
+    text-align: center;
+}
+
+div.navbar {
+    padding: 0px;
+    margin: 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+div.activelink {
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: inherit;
+    display: inline-block;
+    border-bottom: solid;
+    border-bottom-color: red;
+    border-width: thick;
+    color: white;
+}
+
+div.link {
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: inherit;
+    display: inline-block;
+    color: white;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-width: thick;
+}
+
+div.activelink:hover {
+    color: lightgrey;
+}
+
+div.link:hover {
+    border-bottom: solid;
+    border-color: red;
+    border-width: thick;
+    color: lightgrey;
+}
+
+div.content {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 20px 2% 20px 2%;
+    background-color: white;
+}
+
+h2.content {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+p.content {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1.title {
+    margin: 0px 30px 0px 0px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+h1.title:hover {
+    color: lightgrey;
+}
+
+div.event, div.com {
+    background-color: #e6e6e6;
+    padding: 2%;
+    color: black;
+    margin: 10px 0;
+}
+
+div.event:hover {
+    background-color: grey;
+    color: white;
+}
+
+.event p, .event h3, .com p, .com h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+a.event {
+    text-decoration: none;
+}
+
+a.event:hover {
+    background-color: blue;
+}
+
+p.eventdesc {
+    font-style: italic;
+}
+
+div.soc {
+    margin: 10px;
+}
+
+img.logo {
+    max-width: 200px;
+}
+
+div.content a {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    title {
+        margin: 0;
+        padding: 0;
+    }
+
+    div.link {
+        display: block;
+        padding: 3px;
+        border: none;
+    }
+
+    div.activelink {
+        display: block;
+        padding: 3px;
+        border: none;
+    }
+    
+    div.header a {
+        text-decoration: none;
+    }
+
+    div.link:hover {
+        border: none;
+    }
+
+    div.activelink:hover{
+        border: none;
+    }
+
+    div.header {
+        padding-bottom: 10px;
+    }
+
+    div.title {
+        padding: 10px 0 10px 0;
+    }
+}
